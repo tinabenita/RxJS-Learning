@@ -6,11 +6,12 @@ import { SwitchMergeDiffComponent } from "./components/switch-merge-diff/switch-
 import { ConcatMapComponent } from "./components/concat-map/concat-map.component";
 import { ForkJoinComponent } from "./components/fork-join/fork-join.component";
 import { CombineLatestComponent } from "./components/combine-latest/combine-latest.component";
+import { CombineLatestAllComponent } from "./components/combine-latest-all/combine-latest-all.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SwitchMapComponent, MergeMapComponent, SwitchMergeDiffComponent, ConcatMapComponent, ForkJoinComponent, CombineLatestComponent],
+  imports: [RouterOutlet, SwitchMapComponent, MergeMapComponent, SwitchMergeDiffComponent, ConcatMapComponent, ForkJoinComponent, CombineLatestComponent, CombineLatestAllComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
